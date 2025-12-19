@@ -46,11 +46,11 @@ GitHub Actions was used instead of Jenkins
 
 ## 📸 Screenshots (Deliverables)
 
-### GitHub Actions Workflow
-![GitHub Actions Workflow](images/Screenshot%202025-12-19%20at%2010.14.31%E2%80%AFPM.png)
-
 ### GitHub Actions Console Output
-![GitHub Actions Console Output](images/Screenshot%202025-12-19%20at%2010.22.32%E2%80%AFPM.png)
+![GitHub Actions Console Output](images/Screenshot%202025-12-19%20at%2010.14.31%E2%80%AFPM.png)
+
+### Docker Image name
+![Docker Image ](images/Screenshot%202025-12-19%20at%2010.22.32%E2%80%AFPM.png)
 
 ### Application Running Live
 ![Application Running](images/Screenshot%202025-12-19%20at%2010.29.46%E2%80%AFPM.png)
