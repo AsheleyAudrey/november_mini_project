@@ -54,4 +54,4 @@ jobs:
             docker pull naaasheley/december_mini_project
             docker stop app || true
             docker rm app || true
-            docker run -d -p 8001:8001 --name app naaasheley/december_mini_project
+            docker run -d -p 8000:8000 --name app naaasheley/december_mini_project
