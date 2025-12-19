@@ -3,8 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - github-actions  # Run workflow on this branch
-
+      - develop
 jobs:
   build:
     runs-on: ubuntu-latest
