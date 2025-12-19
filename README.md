@@ -1,77 +1,59 @@
+# December Mini Project - CI/CD with GitHub Actions
 
-# november_mini_project
-This repository holds our November mini-project
+## Overview
+This project demonstrates a CI/CD pipeline for a Python application using GitHub Actions and Docker.
+The pipeline builds a Docker image, pushes it to Docker Hub, and deploys the container to an AWS EC2 instance automatically.
+
+GitHub Actions was used instead of Jenkins
+
+---
+
+## Technologies Used
+- Python
+- Docker
+- GitHub Actions
+- Docker Hub
+- AWS EC2
+- Git & GitHub
+
+---
+
+## CI/CD Pipeline Flow
+1. Code is pushed to GitHub
+2. GitHub Actions builds the Docker image
+3. Image is pushed to Docker Hub
+4. GitHub Actions connects to EC2 via SSH
+5. EC2 pulls the Docker image
+6. Container is started on EC2
+
+---
+
+## Docker Image Information
+- **Image Name:** `naaasheley/december-mini-project`
+- **Registry:** Docker Hub
+- **Port Exposed:** `8000`
+
+---
 
 
-### Cloning the repository
 
---> Clone the repository using the command below :
-```bash
+## Application Access
+- **EC2 Public IP:** `98.81.229.27`
+- **Application Port:** `8000`
+- **URL:** http://98.81.229.27:8000/
 
-```
+---
 
---> Move into the directory where we have the project files : 
-```bash
-cd StudyBud
+## 📸 Screenshots (Deliverables)
 
-```
-This is only needed for running this app locally
---> Create a virtual environment :
-```bash
-# Let's install virtualenv first
-pip install virtualenv
+### GitHub Actions Workflow
+![GitHub Actions Workflow](images/Screenshot%202025-12-19%20at%2010.14.31%E2%80%AFPM.png)
 
-# Then we create our virtual environment
-virtualenv envname
+### GitHub Actions Console Output
+![GitHub Actions Console Output](images/Screenshot%202025-12-19%20at%2010.22.32%E2%80%AFPM.png)
 
-```
+### Application Running Live
+![Application Running](images/Screenshot%202025-12-19%20at%2010.29.46%E2%80%AFPM.png)
 
---> Activate the virtual environment :
-```bash
-envname\scripts\activate
-
-```
-
---> Install the requirements :
-```bash
-pip install -r requirements.txt
-
-```
-
-#
-
-### Running the App
-
---> To run the App, we use :
-```bash
-python manage.py runserver
-
-```
-
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
-
-#
-
-### App Preview :
-
-<table width="100%"> 
-<tr>
-<td width="50%">      
-&nbsp; 
-<br>
-<p align="center">
-  Feed Home
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
-</td> 
-<td width="50%">
-<br>
-<p align="center">
-  Room Conversation Preview
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
-</td>
-</table>
-
-Thank you @Divanov 11 for this project
-
+### Contributors
+All contributors are listed in the participants.txt file.
